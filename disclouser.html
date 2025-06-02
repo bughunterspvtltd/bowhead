@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bowhead</title>
+  <link rel="icon" type="image/x-icon" href="Assets/Favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .logo img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tailwind Responsive Navbar -->
+<header id="mainHeader" class="fixed top-0 left-0 w-full z-50 bg-white shadow transition-all duration-300">
+  <nav class="mx-auto px-4 flex items-center justify-around transition-all duration-300 h-[80px] md:h-[150px]" id="mainNav">
+    <a href="index.html" class="flex-shrink-0">
+      <img id="navLogo" src="Assets/Logo.svg" alt="Bowhead Logo"
+           class="transition-all duration-300 h-10 w-auto md:h-24" />
+    </a>
+   <ul class="hidden md:flex gap-8 text-[#000000] font-medium text-lg" id="mainNavLinks">
+  <li><a href="index.html" class="nav-link">Home</a></li>
+  <li><a href="index.html#who-we-are" class="nav-link">Who We Are</a></li>
+<li><a href="index.html#offerings" class="nav-link">Our Offerings</a></li>
+<li><a href="index.html#team" class="nav-link">Our Team</a></li>
+  <li><a href="disclouser.html" class="nav-link nav-link--active">Disclosures</a></li>
+  <li><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+</ul>
+
+
+    <!-- Hamburger Button (mobile) -->
+    <button id="navToggle" class="md:hidden flex items-center justify-center h-10 w-10" aria-label="Open Menu">
+      <svg class="w-7 h-7 text-[#0F4469]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </nav>
+  <!-- Mobile Nav -->
+  <div id="mobileNav" class="md:hidden fixed top-[90px] left-0 w-full bg-white border-t shadow-lg hidden">
+<ul class="flex flex-col gap-6 px-8 py-6 text-[#0F4469] font-semibold text-lg">
+  <li><a href="index.html" class="nav-link">Home</a></li>
+  <li><a href="#who-we-are" class="nav-link">Who We Are</a></li>
+  <li><a href="#offerings" class="nav-link">Our Offerings</a></li>
+  <li><a href="#team" class="nav-link">Our Team</a></li>
+  <li><a href="disclouser.html" class="nav-link nav-link--active">Disclosures</a></li>
+  <li><a href="#contact" class="nav-link">Contact Us</a></li>
+</ul>
+
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+ <!-- Hero Section -->
+<header id="mainHeader" class="fixed ... h-[150px] ...">...</header>
+<section id="hero" class="hero-section md:mt-[150px]">
+  <img src="Assets/hero section.webp" alt="Hero Background" class="hero-image">
+</section>
+
+    
+    
+    <!-- Disclosures Section -->
+<section id="disclosures" class="disclosures-section">
+  <h2 class="section-title">Disclosures</h2>
+  <div class="disclosures-container">
+    <!-- Tabs -->
+    <div class="disclosures-tabs">
+      <button class="tab-btn active" id="tab-ia" onclick="showTab('ia')">
+        Investment Advisory (IA)
+      </button>
+      <button class="tab-btn" id="tab-aif" onclick="showTab('aif')">
+        Alternative Investment Fund (AIF)
+      </button>
+    </div>
+    <!-- Files Panel -->
+    <div class="disclosures-files">
+      <!-- IA Files -->
+      <div class="files-group" id="files-ia">
+        <a class="file-link" href="https://drive.google.com/file/d/1VNVtN6UTyoRhNlLm997Dx0hFTFHfiMn6/view?usp=sharing" target="_blank">
+          <span class="file-arrow"><img src="Assets/Arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Investor Charter</span>
+            <span class="file-subtext">Investor Charter of Investment Advisor.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+        <a class="file-link" href="https://drive.google.com/file/d/1-MBjYzVPvTxC0siZyBlqOo0tAwHwXh7u/view?usp=sharing" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Complaint status</span>
+            <span class="file-subtext">IA - Complaint Data as of April 2025.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+        <a class="file-link" href="https://drive.google.com/file/d/1-8teJsvqDrHm7QcWUjgZ6R1qiuI0NERh/view?usp=sharing" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Status of compliance Audit report</span>
+            <span class="file-subtext">IA - Compliance Audit Status.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+        <a class="file-link" href="https://drive.google.com/file/d/1hBmoVFAeVIBz9OlvQgYhFJKVo7hH_8Wl/view?usp=sharing" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Grievance Redressal and Escalation Matrix</span>
+            <span class="file-subtext">IA - Grievance Redressal and Escalation Matrix.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+      </div>
+      <!-- AIF Files -->
+      <div class="files-group" id="files-aif" style="display:none;">
+        <a class="file-link" href="https://drive.google.com/file/d/1O4vNcbRA8CwzfRRAoSmkfNYoy8XXEeuH/view?usp=sharing" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Investor Charter</span>
+            <span class="file-subtext">Investor Charter of AIF.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+        <a class="file-link" href="https://drive.google.com/uc?export=download&id=FILE_ID_6" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Stewardship and Voting Policy</span>
+            <span class="file-subtext">Stewardship and Voting Policy.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+        <a class="file-link" href="https://drive.google.com/uc?export=download&id=FILE_ID_7" target="_blank">
+          <span class="file-arrow"><img src="Assets/arrow-right.svg" alt="Arrow"></span>
+          <div class="file-text">
+            <span class="file-title">Complaint status</span>
+            <span class="file-subtext">AIF - Complaint Status.pdf</span>
+          </div>
+          <img src="Assets/pdf-icon.svg" alt="PDF" class="pdf-icon">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<footer class="footer-section">
+  <div class="footer-inner container">
+    <!-- Top: Logo left, Links center, LinkedIn right -->
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="Assets/Footer Logo Icon.svg" alt="Bowhead Logo">
+      </div>
+      <nav class="footer-nav">
+        <a href="https://scores.sebi.gov.in/" target="_blank" rel="noopener">SEBI SCORES</a>
+        <a href="https://smartodr.in/login" target="_blank" rel="noopener">SMART ODR Portal</a>
+        <a href="https://www.sebi.gov.in/legal/circulars/jul-2023/online-resolution-of-disputes-in-the-indian-securities-market_74794.html" target="_blank" rel="noopener">SMART ODR - SEBI Circular</a>
+        <a href="https://drive.google.com/file/d/1cDfODSbECNU8hlB0ewb13uqcMIiIOii7/view?usp=sharing" target="_blank" rel="noopener">Grievance Redressal</a>
+        <a href="#" target="_blank" rel="noopener">Disclaimer</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <!-- LinkedIn SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <path fill="#fff" d="M20.447 20.452h-3.554V14.8c0-1.344-.027-3.074-1.876-3.074-1.876 0-2.163 1.463-2.163 2.975v5.75H9.3V9h3.415v1.561h.049c.476-.899 1.637-1.846 3.369-1.846 3.6 0 4.263 2.368 4.263 5.455v6.282zM5.337 7.433a2.065 2.065 0 110-4.13 2.065 2.065 0 010 4.13zM7.119 20.452H3.554V9h3.565v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.729v20.542C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.729C24 .771 23.2 0 22.225 0z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Divider -->
+    <hr class="footer-divider">
+    <!-- Legal Info -->
+    <div class="footer-legal">
+      Registered Name: Bowhead Investment Advisors Private Limited. Registered Office: Bowhead Investment Advisors Private Limited C/o, Executive Centre India Private Limited, Unit No 63-65, Level-18, One Horizon Centre, Golf Course Road, DLF Phase-5, Sector 43, Gurgaon, Haryana 122002, INDIA. CIN: U74101HR2013PTC048864. Type of Registration: Non-Individual Investment Advisor. Registration No. INA100014648. Validity: 8 May 2020 – Perpetual. BSE Enlistment No.1135. Principal Officer: Prateek Gupta. Contact Details (Principal Officer): +91-124-6688290; prateek@bowheadindia.com. SEBI regional/local office address: NBCC Complex, Office Tower-1, 8th Floor, Plate B, East Kidwai Nagar, New Delhi - 110023.<br><br>
+      Registered Name: Bowhead Trust. Registered Office: M-113, DLF Park Place, DLF Phase V, Golf Course Road, Sector 54, Gurgaon 122011, Haryana, India. Category of Registration: Category III Alternative Investment Fund. Registration No. IN/AIF3/24-25/1701. Registration Date: 21 January 2025. Investment Manager: Bowhead Asset Management Private Limited. SCORE ID: AIFN00254.
+    </div>
+    <div class="footer-copy">
+      © 2025 Bowhead. All rights reserved. 
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bowhead</title>
+  <link rel="icon" type="image/x-icon" href="Assets/Favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .logo img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tailwind Responsive Navbar -->
+<header id="mainHeader" class="fixed top-0 left-0 w-full z-50 bg-white shadow transition-all duration-300">
+  <nav class="mx-auto px-4 flex items-center justify-around transition-all duration-300 h-[80px] md:h-[150px]" id="mainNav">
+    <a href="#hero" class="flex-shrink-0">
+      <img id="navLogo" src="Assets/Logo.svg" alt="Bowhead Logo"
+           class="transition-all duration-300 h-10 w-auto md:h-24" />
+    </a>
+    <ul class="hidden md:flex gap-8 text-[#000000] font-medium text-lg" id="mainNavLinks">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#who-we-are" class="nav-link">Who We Are</a></li>
+      <li><a href="#offerings" class="nav-link">Our Offerings</a></li>
+      <li><a href="#team" class="nav-link">Our Team</a></li>
+      <li><a href="disclouser.html" class="nav-link">Disclosures</a></li>
+      <li><a href="#contact" class="nav-link">Contact Us</a></li>
+    </ul>
+
+    <!-- Hamburger Button (mobile) -->
+    <button id="navToggle" class="md:hidden flex items-center justify-center h-10 w-10" aria-label="Open Menu">
+      <svg class="w-7 h-7 text-[#0F4469]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </nav>
+  <!-- Mobile Nav -->
+  <div id="mobileNav" class="md:hidden fixed top-[90px] left-0 w-full bg-white border-t shadow-lg hidden">
+    <ul class="flex flex-col gap-6 px-8 py-6 text-[#0F4469] font-semibold text-lg">
+      <li><a href="#hero" class="hover:text-blue-700 transition">Home</a></li>
+      <li><a href="#who-we-are" class="hover:text-blue-700 transition">Who We Are</a></li>
+      <li><a href="#offerings" class="hover:text-blue-700 transition">Our Offerings</a></li>
+      <li><a href="#team" class="hover:text-blue-700 transition">Our Team</a></li>
+      <li><a href="disclouser.html" class="hover:text-blue-700 transition">Disclosures</a></li>
+      <li><a href="#contact" class="hover:text-blue-700 transition">Contact Us</a></li>
+    </ul>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+ <!-- Hero Section -->
+<header id="mainHeader" class="fixed ... h-[150px] ...">...</header>
+<section id="hero" class="hero-section md:mt-[150px]">
+  <img src="Assets/hero section.webp" alt="Hero Background" class="hero-image">
+</section>
+
+
+
+  <!-- Who We Are Section -->
+  <section id="who-we-are" class="who-we-are-section">
+    <div class="container">
+      <h2 class="section-title">Who We Are</h2>
+      <p class="section-description">
+        Bowhead is an India focused long-only boutique investment firm, identifying opportunities across the market capitalization curve with a long-term view. We run a concentrated portfolio of high-conviction stocks, selected based on rigorous research through proprietary models.
+      </p>
+    </div>
+  
+
+  <!-- Key Differentiators Section -->
+<div id="differentiators" class="differentiators-section">
+  <div class="container">
+    <!-- <h2 class="section-title">Key Differentiators</h2> -->
+    <div class="differentiator-grid">
+      
+      <div class="diff-card">
+        <img src="Assets/Behavioral edge.svg" alt="Behavioral Edge">
+        <h3>Behavioral Edge</h3>
+        <p>We invest in non-consensus ideas. We are not shy of being early investors, are not constrained by benchmark-based allocation, understand long term market cycles, and hold despite volatility.</p>
+      </div>
+
+      <div class="diff-card2 , diff-card">
+        <img src="Assets/Ice Berg.svg" alt="Stock Selection">
+        <h3>Differentiated stock selection process</h3>
+        <p>We do a deep dive in only those stocks/sectors where street is likely to be misinformed, ignorant or behind the curve.</p>
+      </div>
+
+      <div class="diff-card">
+        <img src="Assets/Proprietary frameworks and processes.svg" alt="Proprietary Frameworks">
+        <h3>Proprietary frameworks and processes</h3>
+        <p>We are a process-oriented team and pride ourselves in having detailed frameworks developed internally over the years. Each of our frameworks is implemented via well thought out processes for efficient output.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Our Offerings Section -->
+<section id="offerings" class="offerings-section">
+  <div class="container">
+    <h2 class="section-title">Our Offerings</h2>
+    <div class="offerings-grid">
+      
+      <div class="offering-card">
+        <h3>Investment Advisory (IA)</h3>
+        <p>
+          Bowhead Investment Advisors Private Limited is a SEBI-registered Investment Advisor engaged in providing
+          non-binding investment advisory services in connection with investments primarily in listed equity.
+        </p>
+      </div>
+
+      <div class="offering-card">
+        <h3>Alternative Investment Fund (AIF)</h3>
+        <p>
+          Bowhead Focussed Fund is a scheme of Bowhead Trust which is registered with the Securities and Exchange
+          Board of India (SEBI) as an open-ended Category III Alternative Investment Fund.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Our Team Section -->
+<section id="team" class="team-section">
+  <div class="container">
+    <h2 class="section-title">Our Team</h2>
+    <p class="team-description">
+      We are a team of 8 investment professionals with a combined experience of over 8 decades.
+      Our founder, Kate Winslet, brings over 15 years of deep equity research, portfolio management,
+      and offshore advisory experience to Bowhead.
+    </p>
+
+    <div class="team-cards">
+      <!-- Card 1: Image Left, Text Right -->
+      <div class="team-card">
+        <div class="team-card__img">
+          <img src="Assets/Team Image.png" alt="Kate Winslet">
+        </div>
+        <div class="team-card__content">
+          <h3>Kate Winslet</h3>
+          <p class="role">Founder &amp; CEO of Bowhead</p>
+          <p class="bio">
+            Kate is responsible for identifying investment opportunities and driving the overall investment strategy at Bowhead Investment Advisors.
+Based in India, Kate began her career in 2007 as an investment analyst with Arisaig Partners in Mumbai. During her tenure there, she managed the Indian portfolio for the Asia Fund and later became the co-head of the Global Emerging Markets Fund.
+In 2014, prior to joining Bowhead, Kate co-founded a public markets fund in partnership with Bay Capital, where she led investment advisory efforts until 2018. Since 2018, 
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2: Text Left, Image Right -->
+      <div class="team-card reverse">
+        <div class="team-card__img">
+          <img src="Assets/Team Image.png" alt="Jac Jacson">
+        </div>
+        <div class="team-card__content">
+          <h3>Jac Jacson</h3>
+          <p class="role">Chief Investment Officer</p>
+          <p class="bio">
+           Kate is responsible for identifying investment opportunities and driving the overall investment strategy at Bowhead Investment Advisors.
+Based in India, Kate began her career in 2007 as an investment analyst with Arisaig Partners in Mumbai. During her tenure there, she managed the Indian portfolio for the Asia Fund and later became the co-head of the Global Emerging Markets Fund.
+In 2014, prior to joining Bowhead, Kate co-founded a public markets fund in partnership with Bay Capital, where she led investment advisory efforts until 2018. Since 2018, 
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3: Image Left, Text Right -->
+      <div class="team-card">
+        <div class="team-card__img">
+          <img src="Assets/Team Image.png" alt="Doris Jordan">
+        </div>
+        <div class="team-card__content">
+          <h3>Doris Jordan</h3>
+          <p class="role">Head of Research</p>
+          <p class="bio">
+           Kate is responsible for identifying investment opportunities and driving the overall investment strategy at Bowhead Investment Advisors.
+Based in India, Kate began her career in 2007 as an investment analyst with Arisaig Partners in Mumbai. During her tenure there, she managed the Indian portfolio for the Asia Fund and later became the co-head of the Global Emerging Markets Fund.
+In 2014, prior to joining Bowhead, Kate co-founded a public markets fund in partnership with Bay Capital, where she led investment advisory efforts until 2018. Since 2018, 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Contact Us Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-grid">
+      <!-- Address -->
+      <div class="contact-card">
+        <img src="Assets/Location Icon.svg" alt="Location" class="contact-icon">
+        <div>
+          <p class="contact-heading">Bowhead Investment Advisors<br>Private Limited</p>
+          <address>
+            Level-18, One Horizon Centre,<br>
+            Golf Course Road, DLF Phase-5,<br>
+            Sector 43, Gurgaon, Haryana 122002.
+          </address>
+        </div>
+      </div>
+      <!-- Phone -->
+      <div class="contact-card">
+        <img src="Assets/Call Icon.svg" alt="Phone" class="contact-icon">
+        <div>
+          <a href="tel:+911246688281" class="contact-link">+91 (124) 6688281</a>
+        </div>
+      </div>
+      <!-- Email -->
+      <div class="contact-card">
+        <img src="Assets/Mail Icon.svg" alt="Email" class="contact-icon">
+        <div>
+          <a href="mailto:ir@bowheadindia.com" class="contact-link">ir@bowheadindia.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer-section">
+  <div class="footer-inner container">
+    <!-- Top: Logo left, Links center, LinkedIn right -->
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="Assets/Footer Logo Icon.svg" alt="Bowhead Logo">
+      </div>
+      <nav class="footer-nav">
+        <a href="https://scores.sebi.gov.in/" target="_blank" rel="noopener">SEBI SCORES</a>
+        <a href="https://smartodr.in/login" target="_blank" rel="noopener">SMART ODR Portal</a>
+        <a href="https://www.sebi.gov.in/legal/circulars/jul-2023/online-resolution-of-disputes-in-the-indian-securities-market_74794.html" target="_blank" rel="noopener">SMART ODR - SEBI Circular</a>
+        <a href="https://drive.google.com/file/d/1cDfODSbECNU8hlB0ewb13uqcMIiIOii7/view?usp=sharing" target="_blank" rel="noopener">Grievance Redressal</a>
+        <a href="#" target="_blank" rel="noopener">Disclaimer</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <!-- LinkedIn SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <path fill="#fff" d="M20.447 20.452h-3.554V14.8c0-1.344-.027-3.074-1.876-3.074-1.876 0-2.163 1.463-2.163 2.975v5.75H9.3V9h3.415v1.561h.049c.476-.899 1.637-1.846 3.369-1.846 3.6 0 4.263 2.368 4.263 5.455v6.282zM5.337 7.433a2.065 2.065 0 110-4.13 2.065 2.065 0 010 4.13zM7.119 20.452H3.554V9h3.565v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.729v20.542C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.729C24 .771 23.2 0 22.225 0z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Divider -->
+    <hr class="footer-divider">
+    <!-- Legal Info -->
+    <div class="footer-legal">
+      Registered Name: Bowhead Investment Advisors Private Limited. Registered Office: Bowhead Investment Advisors Private Limited C/o, Executive Centre India Private Limited, Unit No 63-65, Level-18, One Horizon Centre, Golf Course Road, DLF Phase-5, Sector 43, Gurgaon, Haryana 122002, INDIA. CIN: U74101HR2013PTC048864. Type of Registration: Non-Individual Investment Advisor. Registration No. INA100014648. Validity: 8 May 2020 – Perpetual. BSE Enlistment No.1135. Principal Officer: Prateek Gupta. Contact Details (Principal Officer): +91-124-6688290; prateek@bowheadindia.com. SEBI regional/local office address: NBCC Complex, Office Tower-1, 8th Floor, Plate B, East Kidwai Nagar, New Delhi - 110023.<br><br>
+      Registered Name: Bowhead Trust. Registered Office: M-113, DLF Park Place, DLF Phase V, Golf Course Road, Sector 54, Gurgaon 122011, Haryana, India. Category of Registration: Category III Alternative Investment Fund. Registration No. IN/AIF3/24-25/1701. Registration Date: 21 January 2025. Investment Manager: Bowhead Asset Management Private Limited. SCORE ID: AIFN00254.
+    </div>
+    <div class="footer-copy">
+      © 2025 Bowhead. All rights reserved. 
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
