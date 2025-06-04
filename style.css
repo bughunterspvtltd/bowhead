@@ -641,7 +641,7 @@ address {
 }
 
 /* Legal info is now always on its own row */
- {
+.footer-legal {
   font-size: 13px;
   line-height: 1.55;
   color: #fff;
