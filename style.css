@@ -127,6 +127,7 @@ html {
 }
 
 .section-description {
+  text-align: justify;
   font-size: 14px;
   line-height: 1.6;
   max-width: 800px;
@@ -196,6 +197,7 @@ html {
   color: rgba(255,255,255,0.85);
   font-size: 14px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Mobile */
@@ -304,6 +306,7 @@ html {
 
 /* Intro Paragraph */
 .team-description {
+  text-align: justify;
   max-width: 850px;
   margin: 0 auto 40px;
   font-size: 14px;
@@ -540,18 +543,32 @@ address {
   text-align: left;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .contact-grid {
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
+/* Mobile-specific improvements */
+@media (max-width: 600px) {
+  .contact-section .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 18px;
   }
   .contact-card {
-    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    min-width: 0;
+    max-width: 99%;
+    padding: 12px 8px;
+  }
+  .contact-icon {
+    margin-bottom: 6px;
+    width: 28px;
+    height: 28px;
+  }
+  .contact-heading,
+  .contact-link,
+  address {
+    font-size: 0.97rem;
+    text-align: left;
   }
 }
-
 
 
 
