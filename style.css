@@ -114,16 +114,17 @@ html {
 
 /* Who We Are Section */
 .who-we-are-section {
-  /* background-color: #111; */
-  color: #0F4469;
+  background-color: #527494;
+  color: #ffffff;
   padding: 20px 0px 0px 0px;
   text-align: center;
 }
 
-.section-title {
+.wwsection-title {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .section-description {
@@ -132,7 +133,7 @@ html {
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
-  color: #222222;
+  color: #ffffff;
 }
 
 /* Responsive */
@@ -211,6 +212,62 @@ html {
     /* margin-bottom: 20px; */
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* Why Bowhead */
+
+.why-bowhead {
+  padding: 20px;
+  
+}
+
+.why-bowhead-section {
+  background-color: #527494;
+  color: #ffffff;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+.why-bowhead-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0F4469;
+   text-align: center;
+}
+
+.why-bowhead-section-description {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.section-title {
+ 
+  color: #0F4469;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+
+
+
+
+/* ============================= */
+
+
 
 
 
