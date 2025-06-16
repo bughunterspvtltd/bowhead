@@ -112,20 +112,7 @@ html {
 
 
 
-/* Who We Are Section */
-.who-we-are-section {
-  background-color: #527494;
-  color: #ffffff;
-  padding: 35px 0px 0px 0px;
-  text-align: center;
-}
 
-.wwsection-title {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
 
 .section-description {
   text-align: justify;
@@ -151,7 +138,7 @@ html {
 
 .differentiators-section {
   background-color: #527494; /* main section background */
-  padding: 0px 20px 0px 20px;
+  padding: 35px 20px 0px 20px;
   text-align: center;
   align-items: center;
 }
@@ -160,7 +147,7 @@ html {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   flex-wrap: nowrap;       /* force one row */
 }
 
