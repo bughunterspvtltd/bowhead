@@ -351,7 +351,7 @@ html {
 /* Intro Paragraph */
 .team-description {
   text-align: justify;
-  max-width: 850px;
+  max-width: 800px;
   margin: 0 auto 40px;
   font-size: 14px;
   line-height: 1.6;
@@ -736,7 +736,7 @@ address {
 
 
 .disclosures-section {
-  min-height: 460px;
+  min-height: 370px;
   max-width: 900px;
   margin: 40px auto 40px auto;
   padding: 0 16px;
